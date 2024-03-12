@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+#moon{
+    color: black;
+    font-size: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+}
+
+#sun{
+    color: black;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+}
+button {
+    width: 100px;
+    height: 36px;
+    color: white;
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    height: auto;
+}
+
+.nav_main ul {
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+header nav .nav_main {
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+header nav {
+    background-color: white;
+  max-width: 100%;
+}
+
+.logo p {
+    font-size: 25px;
+}
+
+.logo span {
+    color: rgb(10, 14, 250);
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.header__haqimda {
+    margin-top: 40px;
+}
+
+.haqimda__yozuv {
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.haqimda__yozuv p {
+    font-size: 40px;
+    margin-top: 20px;
+    color: black;
+}
+
+.k1 {
+    max-width: 600px;
+}
+
+.k1 p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.haqimda__yozuv span {
+    color: rgb(102, 248, 5);
+    margin-top: 40px;
+}
+
+.header__bosh {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header__rasm img {
+max-width: 300px;
+height: 300px;
+border-radius: 600px;
+}
+
+main {
+    background-color:white;
+    max-width: 100%;
+    height: auto;
+}
+
+.main__haqimda {
+    color: #fff;
+    text-align: center;
+}
+
+.h1 p {
+    font-size: 50px;
+    color: #f4f808;
+}
+
+.h2 p {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.h3 p {
+    max-width: 100%;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.n1 p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.n1 p span {
+    font-size: 25px;
+}
+
+.n2 p span {
+    font-size: 25px;
+}
+
+.n2 {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.n2 p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main_daraja {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+}
+
+.main_dastur p {
+    text-align: center;
+    color: #f4f808;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.nav_main ul li a {
+    color: black;
+}
+
+.main__log {
+    border: 1px solid rgb(51, 6, 252);
+    max-width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.main__log p {
+    color: #fff;
+    font-size: 40px;
+    max-width: 100%;
+}
+
+.main__logo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.main__l {
+    border: 1px solid rgb(51, 6, 252);
+    max-width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.main__l p {
+    font-size: 40px;
+}
+
+.main__l img {
+    max-width: 100%;
+    height: 200px;
+}
+
+.main__log img {
+    max-width: 100%;
+}
+
+.main__k p {
+    color: #f4f808;
+    max-width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.main__ilova {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.main__i {
+    border: 1px solid rgb(51, 6, 252);
+    max-width: 250px;
+    height: auto;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.main__i img {
+    width: 240px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.main__loyih {
+    color: #f4f808;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main__i p {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main__a {
+    border: 1px solid rgb(51, 6, 252);
+    max-width: 300px;
+    height: 250px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.main__loyiha {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+.main__a img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.main__a p {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.main__a button {
+    width: 100px;
+    height: 36px;
+    margin-top: 15px;
+    text-align: center;
+    background: transparent;
+
+}
+
+footer {
+    background-color: black;
+    height: auto;
+}
+
+.footer_aloqa {
+    text-align: center;
+}
+
+.footer_aloqa p {
+    font-size: 50px;
+    color: #f4f808;
+}
+
+.footer_ota img {
+    background-color: rgb(1, 15, 53);
+}
+
+.b {
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer_bosh {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footer_ota {
+    text-align: center;
+    max-width: 250px;
+    height: auto;
+}
+
+.footer_ota img {
+    max-width: 200px;
+    height: 200px;
+    background-color: rgb(1, 15, 53);
+}
+
+.b span {
+    color: darkturquoise;
+}
+
+.footer_oxiri {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    max-width: 100%;
+    height: 100px;
+}
+
+.footer_oxiri p {
+    font-size: 30px;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:650px) {
+    .footer_bosh {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footer_bosh {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .main__loyiha {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .main__loyiha {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main__ilova {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .main__logo {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main__logo {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .main_daraja {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .header__bosh {
+        grid-template-columns: auto;
+        margin: auto;
+    }
+}
